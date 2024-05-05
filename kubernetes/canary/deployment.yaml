@@ -18,9 +18,9 @@ spec:
         pipecd.dev/variant: primary
     spec:
       containers:
-      - name: helloworld
-        image: ghcr.io/pipe-cd/helloworld:v0.32.0
-        args:
-          - server
-        ports:
-        - containerPort: 9085
+        - name: helloworld
+          image: ghcr.io/pipe-cd/helloworld:v0.2.0
+          args:
+            - server
+          ports:
+            - containerPort: 9085
